@@ -14,3 +14,5 @@ candidateData is a data storage class for storing candidate data. It maintains a
 electionPrg is the main election program. It reads from the file, conducts the election by dynamically creating a ton of candidateData objects and a form to accept votes, then dumps everything back into the file.
 
 Results Display is a very simple program to parse the election file, intended for use after the election, and display the votes from each machine. Before you ask why a networked approach / external libraries were not used, it was simply a result of the school's limited computer infrastructure.
+
+**contact: shan on freenodeIRC or shantaram3013@gmail.com for praise/abuse**
