@@ -11,6 +11,9 @@ a
 <HB0Image>
 cand1.png
 </HB0Image>
+<HB0Slogan>
+GNU is not Unix!
+</HB0Slogan>
 </HB0>
 <HB1>
 <HB1Votes>
@@ -20,6 +23,9 @@ b
 <HB1Image>
 cand2.png
 </HB1Image>
+<HB1Slogan>
+Wine Is Not an Emulator!
+</HB1Slogan>
 </HB1>
 </HB>
 <HG>
@@ -34,15 +40,21 @@ a
 <HG0Image>
 cand1.png
 </HG0Image>
+<HG0Slogan>
+GNU is Not Unix!
+</HG0Slogan>
 </HG0>
 <HG1>
 <HG1Votes>
 0
 </HG1Votes>
-cand2.png
+b
 <HG1Image>
 cand2.png
 </HG1Image>
+<HG1Slogan>
+Wine Is Not an Emulator!
+</HG1Slogan>
 </HG1>
 </HG>
 <Cul>
@@ -53,19 +65,25 @@ cand2.png
 <Cul0Votes>
 0
 </Cul0Votes>
-z
+a
 <Cul0Image>
 cand1.png
 </Cul0Image>
+<Cul0Slogan>
+GNU is not Unix!
+</Cul0Slogan>
 </Cul0>
 <Cul1>
 <Cul1Votes>
 0
 </Cul1Votes>
-x
+b
 <Cul1Image>
 cand2.png
 </Cul1Image>
+<Cul1Slogan>
+Wine Is Not an Emulator!
+</Cul1Slogan>
 </Cul1>
 </Cul>
 <ACul>
@@ -80,6 +98,9 @@ a
 <ACul0Image>
 cand1.png
 </ACul0Image>
+<ACul0Slogan>
+GNU is Not Unix!
+</ACul0Slogan>
 </ACul0>
 <ACul1>
 <ACul1Votes>
@@ -89,6 +110,9 @@ b
 <ACul1Image>
 cand2.png
 </ACul1Image>
+<ACul1Slogan>
+Wine Is Not an Emulator!
+</ACul1Slogan>
 </ACul1>
 </ACul>
 <SC>
@@ -103,6 +127,9 @@ a
 <SC0Image>
 cand1.png
 </SC0Image>
+<SC0Slogan>
+GNU is not Unix!
+</SC0Slogan>
 </SC0>
 <SC1>
 <SC1Votes>
@@ -112,6 +139,9 @@ b
 <SC1Image>
 cand2.png
 </SC1Image>
+<SC1Slogan>
+Wine Is Not an Emulator!
+</SC1Slogan>
 </SC1>
 </SC>
 <ASC>
@@ -126,6 +156,9 @@ a
 <ASC0Image>
 cand1.png
 </ASC0Image>
+<ASC0Slogan>
+GNU is not Unix!
+</ASC0Slogan>
 </ASC0>
 <ASC1>
 <ASC1Votes>
@@ -135,6 +168,9 @@ b
 <ASC1Image>
 cand2.png
 </ASC1Image>
+<ASC1Slogan>
+Wine Is Not an Emulator!
+</ASC1Slogan>
 </ASC1>
 </ASC>
 <BHC>
@@ -149,6 +185,9 @@ a
 <BHC0Image>
 cand1.png
 </BHC0Image>
+<BHC0Slogan>
+GNU is Not Unix!
+</BHC0Slogan>
 </BHC0>
 <BHC1>
 <BHC1Votes>
@@ -158,6 +197,9 @@ b
 <BHC1Image>
 cand2.png
 </BHC1Image>
+<BHC1Slogan>
+Wine Is Not an Emulator!
+</BHC1Slogan>
 </BHC1>
 </BHC>
 <ABHC>
@@ -172,6 +214,9 @@ a
 <ABHC0Image>
 cand1.png
 </ABHC0Image>
+<ABHC0Slogan>
+GNU is Not Unix!
+</ABHC0Slogan>
 </ABHC0>
 <ABHC1>
 <ABHC1Votes>
@@ -181,6 +226,9 @@ b
 <ABHC1Image>
 cand2.png
 </ABHC1Image>
+<ABHC1Slogan>
+Wine Is Not an Emulator!
+</ABHC1Slogan>
 </ABHC1>
 </ABHC>
 <GHC>
@@ -195,6 +243,9 @@ a
 <GHC0Image>
 cand1.png
 </GHC0Image>
+<GHC0Slogan>
+GNU is Not Unix!
+</GHC0Slogan>
 </GHC0>
 <GHC1>
 <GHC1Votes>
@@ -204,6 +255,9 @@ b
 <GHC1Image>
 cand2.png
 </GHC1Image>
+<GHC1Slogan>
+Wine Is Not an Emulator!
+</GHC1Slogan>
 </GHC1>
 </GHC>
 <AGHC>
@@ -214,19 +268,25 @@ cand2.png
 <AGHC0Votes>
 0
 </AGHC0Votes>
-cand1
+a
 <AGHC0Image>
 cand1.png
 </AGHC0Image>
+<AGHC0Slogan>
+GNU is Not Unix!
+</AGHC0Slogan>
 </AGHC0>
 <AGHC1>
 <AGHC1Votes>
 0
 </AGHC1Votes>
-cand2
+b
 <AGHC1Image>
 cand2.png
 </AGHC1Image>
+<AGHC1Slogan>
+Wine Is Not an Emulator!
+</AGHC1Slogan>
 </AGHC1>
 </AGHC>
 <RHC>
@@ -241,6 +301,9 @@ a
 <RHC0Image>
 cand1.png
 </RHC0Image>
+<RHC0Slogan>
+GNU is Not Unix!
+</RHC0Slogan>
 </RHC0>
 <RHC1>
 <RHC1Votes>
@@ -250,6 +313,9 @@ b
 <RHC1Image>
 cand2.png
 </RHC1Image>
+<RHC1Slogan>
+Wine Is Not an Emulator!
+</RHC1Slogan>
 </RHC1>
 </RHC>
 <ARHC>
@@ -264,6 +330,9 @@ a
 <ARHC0Image>
 cand1.png
 </ARHC0Image>
+<ARHC0Slogan>
+GNU is not Unix!
+</ARHC0Slogan>
 </ARHC0>
 <ARHC1>
 <ARHC1Votes>
@@ -273,6 +342,9 @@ b
 <ARHC1Image>
 cand2.png
 </ARHC1Image>
+<ARHC1Slogan>
+Wine Is Not an Emulator!
+</ARHC1Slogan>
 </ARHC1>
 </ARHC>
 <YHC>
@@ -287,15 +359,21 @@ a
 <YHC0Image>
 cand1.png
 </YHC0Image>
+<YHC0Slogan>
+GNU is not Unix
+</YHC0Slogan>
 </YHC0>
 <YHC1>
 <YHC1Votes>
 0
 </YHC1Votes>
-cand2
+b
 <YHC1Image>
 cand2.png
 </YHC1Image>
+<YHC1Slogan>
+Wine Is Not an Emulator!
+</YHC1Slogan>
 </YHC1>
 </YHC>
 <AYHC>
@@ -306,19 +384,25 @@ cand2.png
 <AYHC0Votes>
 0
 </AYHC0Votes>
-cand1
+a
 <AYHC0Image>
 cand1.png
 </AYHC0Image>
+<AYHC0Slogan>
+GNU is Not Unix!
+</AYHC0Slogan>
 </AYHC0>
 <AYHC1>
 <AYHC1Votes>
 0
 </AYHC1Votes>
-cand2
+b
 <AYHC1Image>
 cand2.png
 </AYHC1Image>
+<AYHC1Slogan>
+Wine Is Not an Emulator!
+</AYHC1Slogan>
 </AYHC1>
 </AYHC>
 </Candidates>

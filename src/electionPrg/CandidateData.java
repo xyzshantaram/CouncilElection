@@ -15,12 +15,14 @@ public class CandidateData {
     int serialFromFile = 0;
     String name = "";
     String img = "";
+    String slogan = "";
     
-    public CandidateData(int post, int serial, int votes, String s, String image) {
+    public CandidateData(int post, int serial, int votes, String s, String image, String slg) {
         posn = post;
         serialFromFile = serial;
         name = s;
         img = image;
+        slogan = slg;
     }
     
     public void addVote() {
@@ -49,6 +51,10 @@ public class CandidateData {
     
     public String getImageName() {
         return img;
+    }
+    
+    public String getSlogan() {
+        return slogan;
     }
     
     public void setImageName(String s) {
