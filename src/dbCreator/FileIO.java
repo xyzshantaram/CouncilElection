@@ -19,20 +19,20 @@ import javax.swing.JOptionPane;
  */
 public class FileIO { 
     
-    static String fileName = "foo";
+    String fileName = "foo";
     
     public FileIO(String s) {
         fileName = s;
     }
     
-    static void rmLine(String s, ArrayList<String> arr) {
+    void rmLine(String s, ArrayList<String> arr) {
         arr.remove(s);
     }
-    static void SOP(String s) {
+    void SOP(String s) {
         System.out.println(s);
     }
     
-    static void dumpToFile(ArrayList<String> array) {
+    void dumpToFile(ArrayList<String> array) {
         boolean success = false;
         try {
             BufferedWriter fw = new BufferedWriter(new FileWriter(fileName));
@@ -59,17 +59,17 @@ public class FileIO {
         
     }
     
-    static String getFromLineNo(int number, ArrayList<String> array) {
+    String getFromLineNo(int number, ArrayList<String> array) {
         String obtainedLine;
         obtainedLine = array.get(number);
         return obtainedLine;
     }
     
-    static void message(String s) {
+    void message(String s) {
         JOptionPane.showMessageDialog(null, s);
     } 
     
-    static int searchForLineNumber(String s, ArrayList<String> array, int lines) {
+    int searchForLineNumber(String s, ArrayList<String> array, int lines) {
         int lnNo = 0;
         while (lnNo <= lines) {
             if (array.get(lnNo).equals(s)) {
@@ -84,7 +84,7 @@ public class FileIO {
     
     
     
-    static void addXMLTag(boolean close, String s, ArrayList<String> a) {
+    void addXMLTag(boolean close, String s, ArrayList<String> a) {
 
         String constructedString = "<";
         if (close) {
@@ -101,7 +101,7 @@ public class FileIO {
         SOP(""+95);
     }
     
-    static void readFileIntoArray(ArrayList<String> array, int lines) {        
+    void readFileIntoArray(ArrayList<String> array, int lines) {        
         try {
             FileReader fr = new FileReader(fileName);
             BufferedReader br = new BufferedReader(fr);
@@ -116,18 +116,18 @@ public class FileIO {
 
             for (int j = 0; j < lines; j++) {
                 array.add(j, br.readLine());
-                FileIO.SOP(array.get(j));
+                SOP(array.get(j));
             }
 
             br.close();
             SOP("\n<<<<File contents end here!>>>>\n");
         }
         catch (IOException e) {
-            FileIO.SOP("IOException: " + e);
+            SOP("IOException: " + e);
         }
     }
     
-    static ArrayList<String> linesBetween(int begin, int end, ArrayList<String> source) {
+    ArrayList<String> linesBetween(int begin, int end, ArrayList<String> source) {
         
         ArrayList<String> result = new ArrayList();
         int length = end - begin;
