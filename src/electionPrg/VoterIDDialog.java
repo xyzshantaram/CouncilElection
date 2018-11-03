@@ -29,7 +29,7 @@ public class VoterIDDialog extends javax.swing.JDialog {
         super(parent, modal);
         initComponents();
         FName = dupeFileName;
-        dupeFile = new FileIO("FName");
+        dupeFile = new FileIO(FName);
         dupeFile.readFileIntoArray(dupes, lines);
         
         jLabel1.setText("<HTML> <p ALIGN = RIGHT> <u> Help... </u> </p> </HTML>");
