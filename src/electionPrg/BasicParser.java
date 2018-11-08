@@ -196,4 +196,21 @@ public class BasicParser {
         System.exit(0);
     }
     
+    void houseVote(int a, boolean teacher) {
+        if (!teacher) {
+            for (int i = a; i <= a+1; i++) {
+                VotingDialog dialog = new VotingDialog(null, true, i, candidates[i]);
+                dialog.setVisible(true);
+                votedCandidates[i] = dialog.getVote();
+            }
+        }
+        else {
+            for (int i = 6; i <= 13; i++) {
+                VotingDialog dialog = new VotingDialog(null, true, i, candidates[i]);
+                dialog.setVisible(true);
+                votedCandidates[i] = dialog.getVote();
+            }
+        }
+            
+    }
 }
