@@ -69,8 +69,9 @@ public class FileIO {
         JOptionPane.showMessageDialog(null, s);
     } 
     
-    int searchForLineNumber(String s, ArrayList<String> array, int lines) {
+    int searchForLineNumber(String y, ArrayList<String> array, int lines) {
         int lnNo = 0;
+        String s = y.trim();
         while (lnNo <= lines) {
             if (array.get(lnNo).equals(s)) {
                 break;
