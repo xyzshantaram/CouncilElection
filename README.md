@@ -17,8 +17,9 @@ Results Display is a very simple program to parse the election file, intended fo
 
 **contact: shan on freenodeIRC or shantaram3013@gmail.com for praise/abuse**
 
-_Copyright (C) 2020, Siddharth S Singh [simsid66@gmail.com]_
+_**Copyright (C) 2020, Siddharth S Singh**_
 
+```
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
@@ -31,3 +32,4 @@ GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
