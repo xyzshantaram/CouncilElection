@@ -16,3 +16,18 @@ electionPrg is the main election program. It reads from the file, conducts the e
 Results Display is a very simple program to parse the election file, intended for use after the election, and display the votes from each machine. Before you ask why a networked approach / external libraries were not used, it was simply a result of the school's limited computer infrastructure.
 
 **contact: shan on freenodeIRC or shantaram3013@gmail.com for praise/abuse**
+
+_Copyright (C) 2020, Siddharth S Singh [simsid66@gmail.com]_
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
