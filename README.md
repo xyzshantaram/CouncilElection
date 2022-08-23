@@ -1,5 +1,9 @@
 # CouncilElection
 
+## this is an old project,  here only for archival's sake. I am not proud of it and it is only intended as a point of comparison against current projects. 
+
+<details>
+<summary><strong>view at your own risk</strong></summary>
 This is the election suite that I created for my school's student council election.
 
 FileIO.java is a common class file across all the programs.
@@ -15,9 +19,9 @@ electionPrg is the main election program. It reads from the file, conducts the e
 
 Results Display is a very simple program to parse the election file, intended for use after the election, and display the votes from each machine. Before you ask why a networked approach / external libraries were not used, it was simply a result of the school's limited computer infrastructure.
 
-**contact: shan on freenodeIRC or shantaram3013@gmail.com for praise/abuse**
+</details>
 
-_**Copyright (C) 2020, Siddharth S Singh**_
+_**Copyright (C) 2020-22, Siddharth S Singh**_
 
 ```
 This program is free software: you can redistribute it and/or modify
